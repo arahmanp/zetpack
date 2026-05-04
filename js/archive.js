@@ -1,6 +1,6 @@
 /* ============================================================
    archieve.js — Zetpack
-   JS khusus halaman Archive (archieve.html)
+   JS khusus halaman Archive (archive.html)
    ============================================================ */
 
 $(function () {
