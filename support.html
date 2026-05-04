@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="id" data-bs-theme="auto">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zetpack — Support</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Bootstrap 5 -->
+  <link rel="stylesheet" href="lib/bootstrap-5.3.8-dist/css/bootstrap.min.css" />
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="assets/icons/bootstrap-icons-1.13.1/bootstrap-icons.min.css" />
+
+  <!-- Global CSS -->
+  <link rel="stylesheet" href="css/global.css" />
+
+  <!-- Page CSS -->
+  <link rel="stylesheet" href="css/support.css" />
+</head>
+<body>
+
+  <!-- ════════════════════════════ NAVBAR ════════════════════════════ -->
+  <nav class="navbar navbar-expand-md navbar-zetpack fixed-top">
+    <div class="container">
+      <a class="navbar-brand navbar-brand-text" href="index.html">
+        Zetpack<span>.id</span>
+      </a>
+
+      <div class="d-flex align-items-center gap-2 ms-auto">
+        <button class="theme-toggle" id="themeToggle" title="Toggle theme">
+          <i class="bi bi-sun" id="themeIcon"></i>
+        </button>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+          <i class="bi bi-list fs-5" style="color: var(--text-primary);"></i>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navMenu">
+        <ul class="navbar-nav ms-auto align-items-md-center gap-1">
+          <li class="nav-item">
+            <a class="nav-link nav-link-zetpack" href="index.html">
+              <i class="bi bi-info-circle me-1"></i>About
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-zetpack" href="archieve.html">
+              <i class="bi bi-archive me-1"></i>Archive
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link nav-link-zetpack active" href="support.html">
+              <i class="bi bi-heart me-1"></i>Support
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ════════════════════════════ OPENING — SURAT TERBUKA ════════════════════════════ -->
+  <section class="support-opening">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <div class="support-letter">
+            <p class="support-letter-tag">
+              <i class="bi bi-envelope-open"></i> Dari Developer
+            </p>
+            <h1 class="support-letter-title">Zetpack dibuat<br/>dengan tangan,<br/>bukan modal.</h1>
+            <div class="support-letter-body">
+              <p>
+                Halo! Zetpack adalah proyek yang lahir dari frustrasi — sulitnya menemukan soal matematika berkualitas
+                yang bisa langsung dipakai, tanpa harus daftar akun, tanpa iklan, tanpa bayar.
+              </p>
+              <p>
+                Platform ini dibangun dan dikelola secara mandiri. Setiap paket soal dikurasi satu per satu,
+                disusun dengan struktur yang rapi, dan diunggah agar bisa diakses siapa saja — pelajar,
+                guru, maupun orang tua.
+              </p>
+              <p>
+                Zetpack akan selalu gratis. Tapi kalau kamu merasa platform ini berguna dan ingin
+                membantu agar tetap berjalan — dalam bentuk apapun — itu sangat berarti.
+              </p>
+            </div>
+            <div class="support-signature">
+              <div class="support-signature-avatar">
+                <i class="bi bi-person"></i>
+              </div>
+              <div>
+                <p class="support-signature-name">Developer Zetpack</p>
+                <p class="support-signature-role">zetpack.id@gmail.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Sidebar kanan: project stats -->
+        <div class="col-lg-4 offset-lg-1 d-none d-lg-block">
+          <div class="support-sidebar">
+            <div class="feature-card mb-3">
+              <p class="feature-title mb-3">Status Proyek</p>
+              <div class="stat-row">
+                <span class="stat-row-label">Status</span>
+                <span class="stat-row-value">🟢 Aktif</span>
+              </div>
+              <div class="stat-row">
+                <span class="stat-row-label">Hosting</span>
+                <span class="stat-row-value">Netlify Free</span>
+              </div>
+              <div class="stat-row">
+                <span class="stat-row-label">Database</span>
+                <span class="stat-row-value">Tidak ada</span>
+              </div>
+              <div class="stat-row">
+                <span class="stat-row-label">Iklan</span>
+                <span class="stat-row-value">Tidak ada</span>
+              </div>
+              <div class="stat-row">
+                <span class="stat-row-label">Paket tersedia</span>
+                <span class="stat-row-value">1000+</span>
+              </div>
+            </div>
+            <div class="notice-box">
+              <strong>Catatan:</strong> Zetpack tidak memiliki donasi wajib. Semua cara support di halaman ini bersifat sukarela sepenuhnya.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════ TRANSPARENCY ════════════════════════════ -->
+  <section class="transparency-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <p class="section-label">Transparansi</p>
+          <h2 class="section-title">Kenapa support itu penting?</h2>
+
+          <div class="transparency-item">
+            <div class="transparency-icon"><i class="bi bi-clock-history"></i></div>
+            <div>
+              <p class="transparency-content-title">Kurasi soal itu butuh waktu</p>
+              <p class="transparency-content-desc">
+                Setiap paket soal tidak asal upload. Ada proses seleksi, pengecekan konten, pengelompokan topik,
+                dan formatting ulang agar konsisten. Untuk ribuan paket, itu bukan waktu yang sedikit.
+              </p>
+            </div>
+          </div>
+
+          <div class="transparency-item">
+            <div class="transparency-icon"><i class="bi bi-cloud-upload"></i></div>
+            <div>
+              <p class="transparency-content-title">Hosting gratis punya batasnya</p>
+              <p class="transparency-content-desc">
+                Saat ini Zetpack menggunakan Netlify tier gratis. Jika traffic tumbuh signifikan,
+                bandwidth bisa habis dan situs bisa tidak bisa diakses. Upgrade butuh biaya bulanan yang konsisten.
+              </p>
+            </div>
+          </div>
+
+          <div class="transparency-item">
+            <div class="transparency-icon"><i class="bi bi-person-workspace"></i></div>
+            <div>
+              <p class="transparency-content-title">Dikelola sendiri, tanpa tim</p>
+              <p class="transparency-content-desc">
+                Zetpack bukan produk perusahaan. Tidak ada tim developer, tidak ada investor.
+                Semua — dari desain, konten, hingga maintenance — dikerjakan oleh satu orang di waktu luang.
+              </p>
+            </div>
+          </div>
+
+          <div class="transparency-item">
+            <div class="transparency-icon"><i class="bi bi-arrow-repeat"></i></div>
+            <div>
+              <p class="transparency-content-title">Konten terus diperbarui</p>
+              <p class="transparency-content-desc">
+                Koleksi soal tidak berhenti di sini. Rencana ke depan mencakup penambahan materi baru,
+                perbaikan soal yang ada, dan mungkin fitur pencarian yang lebih canggih — semua butuh motivasi dan waktu.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════ CARA SUPPORT ════════════════════════════ -->
+  <section class="support-ways-section">
+    <div class="container">
+      <p class="section-label">Cara Berkontribusi</p>
+      <h2 class="section-title">Pilih caramu sendiri.</h2>
+      <div class="row g-3">
+
+        <!-- Donasi -->
+        <div class="col-md-6 col-lg-3">
+          <div class="support-way-card">
+            <div class="support-way-icon"><i class="bi bi-cup-hot"></i></div>
+            <p class="support-way-title">Traktir Kopi</p>
+            <p class="support-way-desc">
+              Donasi kecil lewat Saweria atau Ko-fi. Tidak ada nominal minimum — semua bantuan berarti sama besarnya.
+            </p>
+            <a href="https://saweria.co" target="_blank" rel="noopener" class="support-way-action primary">
+              <i class="bi bi-box-arrow-up-right"></i> Buka Saweria
+            </a>
+          </div>
+        </div>
+
+        <!-- Share -->
+        <div class="col-md-6 col-lg-3">
+          <div class="support-way-card">
+            <div class="support-way-icon"><i class="bi bi-share"></i></div>
+            <p class="support-way-title">Sebarkan Zetpack</p>
+            <p class="support-way-desc">
+              Ceritain ke teman, share di grup belajar, atau posting di media sosial. Ini cara terbaik yang gratis tapi sangat berdampak.
+            </p>
+            <a href="https://wa.me/?text=Coba%20cek%20Zetpack%2C%20bank%20soal%20matematika%20gratis%20berbasis%20PDF!%20https%3A%2F%2Fzetpack.id"
+               target="_blank" rel="noopener" class="support-way-action">
+              <i class="bi bi-whatsapp"></i> Share via WA
+            </a>
+          </div>
+        </div>
+
+        <!-- Feedback -->
+        <div class="col-md-6 col-lg-3">
+          <div class="support-way-card">
+            <div class="support-way-icon"><i class="bi bi-chat-square-text"></i></div>
+            <p class="support-way-title">Kritik & Saran</p>
+            <p class="support-way-desc">
+              Ada tampilan yang membingungkan? Fitur yang kurang? Feedback kamu langsung mempengaruhi arah pengembangan Zetpack.
+            </p>
+            <a href="#feedback" class="support-way-action">
+              <i class="bi bi-arrow-down"></i> Tulis Feedback
+            </a>
+          </div>
+        </div>
+
+        <!-- Laporkan soal -->
+        <div class="col-md-6 col-lg-3">
+          <div class="support-way-card">
+            <div class="support-way-icon"><i class="bi bi-flag"></i></div>
+            <p class="support-way-title">Laporkan Soal</p>
+            <p class="support-way-desc">
+              Nemu soal yang salah, typo, atau tidak sesuai jenjang? Laporin supaya bisa segera diperbaiki untuk semua pengguna.
+            </p>
+            <a href="#feedback" class="support-way-action">
+              <i class="bi bi-arrow-down"></i> Laporkan
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════ FEEDBACK FORM ════════════════════════════ -->
+  <section class="feedback-section" id="feedback">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <p class="section-label">Feedback</p>
+          <h2 class="section-title">Tulis pesanmu.</h2>
+
+          <div class="feedback-form-wrap">
+            <form id="feedbackForm" novalidate>
+
+              <div class="mb-4">
+                <label class="form-label-zetpack" for="inputName">
+                  Nama <span style="color: var(--text-muted); font-weight: 400;">(opsional)</span>
+                </label>
+                <input
+                  type="text"
+                  id="inputName"
+                  class="form-control-zetpack"
+                  placeholder="Nama kamu..."
+                  autocomplete="off"
+                />
+              </div>
+
+              <div class="mb-4">
+                <label class="form-label-zetpack" for="inputType">Jenis Pesan</label>
+                <select id="inputType" class="form-control-zetpack">
+                  <option value="Kritik & Saran">💬 Kritik & Saran</option>
+                  <option value="Laporan Soal">🚩 Laporan Soal Bermasalah</option>
+                  <option value="Pertanyaan">❓ Pertanyaan</option>
+                  <option value="Lainnya">📝 Lainnya</option>
+                </select>
+              </div>
+
+              <div class="mb-4">
+                <label class="form-label-zetpack" for="inputMessage">Pesan <span style="color:red">*</span></label>
+                <textarea
+                  id="inputMessage"
+                  class="form-control-zetpack"
+                  placeholder="Tulis pesanmu di sini..."
+                  required
+                ></textarea>
+                <p class="form-hint">Pesan akan dikirim melalui aplikasi email yang terpasang di perangkatmu.</p>
+              </div>
+
+              <button type="submit" class="form-submit-btn">
+                <i class="bi bi-send"></i> Kirim Pesan
+              </button>
+
+            </form>
+          </div>
+        </div>
+
+        <!-- Sidebar kanan -->
+        <div class="col-lg-4 offset-lg-1 d-none d-lg-block">
+          <div class="support-sidebar">
+            <div class="feature-card mb-3">
+              <div class="feature-icon"><i class="bi bi-lightning-charge"></i></div>
+              <p class="feature-title">Respons Cepat</p>
+              <p class="feature-desc">Setiap pesan dibaca langsung oleh developer. Tidak ada bot, tidak ada template — balasan dari manusia sungguhan.</p>
+            </div>
+            <div class="feature-card mb-3">
+              <div class="feature-icon"><i class="bi bi-shield-check"></i></div>
+              <p class="feature-title">Privasi Terjaga</p>
+              <p class="feature-desc">Pesan dikirim langsung via email. Tidak ada data yang disimpan di server Zetpack.</p>
+            </div>
+            <div class="notice-box">
+              Kamu juga bisa langsung email ke <strong>zetpack.id@gmail.com</strong> jika lebih nyaman.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ════════════════════════════ FOOTER ════════════════════════════ -->
+  <footer class="footer-zetpack">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2">
+      <p class="footer-text mb-0">© 2026 Zetpack — Bank Soal Matematika</p>
+      <p class="footer-text mb-0">Built with <i class="bi bi-heart-fill" style="font-size: 0.65rem;"></i> for learners</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="lib/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+  <!-- jQuery -->
+  <script src="lib/jquery/jquery-4.0.0.min.js"></script>
+  <!-- Page JS -->
+  <script src="js/support.js"></script>
+
+</body>
+</html>
