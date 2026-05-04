@@ -68,8 +68,6 @@
     <!-- ── Sidebar ── -->
     <aside class="archive-sidebar" id="archiveSidebar">
 
-      <!-- Mobile toggle trigger (rendered outside sidebar in mobile) -->
-
       <!-- Filter: Jenjang Pendidikan -->
       <div class="sidebar-section">
         <p class="sidebar-section-title">Jenjang Pendidikan</p>
@@ -121,7 +119,6 @@
           <span class="filter-count">—</span>
         </label>
 
-        <!-- Lokal -->
         <span class="filter-group-label">Lokal</span>
 
         <label class="filter-item" data-sumber="UTBK SNBT">
@@ -145,7 +142,6 @@
           <span class="filter-count">0</span>
         </label>
 
-        <!-- Internasional -->
         <span class="filter-group-label">Internasional</span>
 
         <label class="filter-item" data-sumber="SAT">
@@ -179,10 +175,16 @@
         />
       </div>
 
-      <!-- Result Meta -->
+      <!-- Result Meta + Sort -->
       <div class="result-meta">
-        <p class="result-count mb-0" id="resultCount">Memuat paket soal...</p>
-        <div class="active-filters" id="activeTags"></div>
+        <div class="result-meta-left">
+          <p class="result-count mb-0" id="resultCount">Memuat paket soal...</p>
+          <div class="active-filters" id="activeTags"></div>
+        </div>
+        <select class="sort-select" id="sortSelect" title="Urutkan">
+          <option value="newest">Terbaru</option>
+          <option value="oldest">Terlama</option>
+        </select>
       </div>
 
       <!-- Package List -->
@@ -194,6 +196,9 @@
         <p class="empty-state-title">Tidak ada paket soal ditemukan</p>
         <p class="empty-state-desc">Coba ubah filter atau kata kunci pencarianmu.</p>
       </div>
+
+      <!-- Pagination -->
+      <div class="pagination-wrap" id="paginationWrap"></div>
 
     </main>
   </div>
@@ -249,8 +254,8 @@
               <p class="modal-info-value" id="modalKategori">—</p>
             </div>
             <div class="modal-info-box">
-              <p class="modal-info-label">Format</p>
-              <p class="modal-info-value">PDF</p>
+              <p class="modal-info-label">Tgl Upload</p>
+              <p class="modal-info-value" id="modalTglUpload">—</p>
             </div>
           </div>
 

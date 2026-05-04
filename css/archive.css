@@ -1,5 +1,5 @@
 /* ============================================================
-   archieve.css — Zetpack
+   archive.css — Zetpack
    Styling khusus halaman Archive (archive.html)
    ============================================================ */
 
@@ -65,7 +65,6 @@
 }
 
 .filter-item:hover { background: var(--accent-subtle); }
-
 .filter-item input[type="radio"] { display: none; }
 
 .filter-radio {
@@ -191,7 +190,7 @@
   box-shadow: 0 0 0 3px var(--accent-subtle);
 }
 
-/* Result meta */
+/* ── Result meta + sort ── */
 .result-meta {
   display: flex;
   align-items: center;
@@ -199,6 +198,13 @@
   margin-bottom: 16px;
   flex-wrap: wrap;
   gap: 8px;
+}
+
+.result-meta-left {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
 }
 
 .result-count {
@@ -224,6 +230,27 @@
   font-weight: 600;
   color: var(--text-primary);
 }
+
+/* Sort dropdown */
+.sort-select {
+  padding: 5px 28px 5px 10px;
+  background: var(--surface-2);
+  border: 1px solid var(--divider);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  cursor: pointer;
+  transition: border-color 0.2s;
+  appearance: none;
+  -webkit-appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6' viewBox='0 0 10 6'%3E%3Cpath fill='%23888' d='M0 0l5 6 5-6z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+.sort-select:focus { outline: none; border-color: var(--text-muted); }
 
 /* Package List */
 .package-list { display: flex; flex-direction: column; gap: 8px; }
@@ -323,6 +350,73 @@
 }
 
 .empty-state-desc { font-size: 0.875rem; color: var(--text-muted); }
+
+/* ── Pagination ── */
+.pagination-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 24px;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.pagination-info {
+  font-family: var(--font-heading);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+.pagination-info span { color: var(--text-primary); font-weight: 700; }
+
+.pagination-controls {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.page-btn {
+  min-width: 32px;
+  height: 32px;
+  padding: 0 8px;
+  background: var(--surface-2);
+  border: 1px solid var(--divider);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-heading);
+  font-size: 0.775rem;
+  font-weight: 600;
+  color: var(--text-muted);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  user-select: none;
+}
+
+.page-btn:hover:not(:disabled):not(.active):not(.ellipsis) {
+  background: var(--accent-subtle);
+  color: var(--text-primary);
+  border-color: var(--text-muted);
+}
+
+.page-btn.active {
+  background: var(--accent);
+  color: var(--surface);
+  border-color: var(--accent);
+}
+
+.page-btn:disabled {
+  opacity: 0.35;
+  cursor: not-allowed;
+}
+
+.page-btn.ellipsis {
+  border: none;
+  background: transparent;
+  cursor: default;
+  color: var(--text-muted);
+}
 
 /* ── Modal ── */
 .modal-zetpack .modal-content {
