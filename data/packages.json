@@ -1,0 +1,100 @@
+{
+  "packages": [
+    {
+      "id": 1,
+      "title": "UTBK SNBT 2025 — Penalaran Kuantitatif",
+      "jenjang": "SMA",
+      "kategori": "Lokal",
+      "sumber": "UTBK SNBT",
+      "tahun": 2025,
+      "jumlah_soal": 20,
+      "ukuran": "1.2 MB",
+      "deskripsi": "Paket soal Penalaran Kuantitatif UTBK SNBT tahun 2025. Mencakup materi aljabar, geometri, statistika, dan logika matematika.",
+      "file": "assets/pdf/UTBK-2025-PK.pdf"
+    },
+    {
+      "id": 2,
+      "title": "UTBK SNBT 2025 — Penalaran Kuantitatif Sesi 2",
+      "jenjang": "SMA",
+      "kategori": "Lokal",
+      "sumber": "UTBK SNBT",
+      "tahun": 2025,
+      "jumlah_soal": 20,
+      "ukuran": "1.1 MB",
+      "deskripsi": "Paket soal Penalaran Kuantitatif UTBK SNBT tahun 2025 sesi 2. Cocok untuk latihan persiapan ujian masuk perguruan tinggi negeri.",
+      "file": "assets/pdf/UTBK-2025-sesi-2-PK.pdf"
+    },
+    {
+      "id": 3,
+      "title": "SIMAK UI 2026 — Matematika",
+      "jenjang": "SMA",
+      "kategori": "Lokal",
+      "sumber": "SIMAK UI",
+      "tahun": 2026,
+      "jumlah_soal": 30,
+      "ukuran": "2.0 MB",
+      "deskripsi": "Paket soal Matematika dari ujian SIMAK UI tahun 2026. Tingkat kesulitan menengah ke atas, cocok untuk persiapan ujian mandiri UI.",
+      "file": "assets/pdf/SIMAKUI-2026-MTK.pdf"
+    },
+    {
+      "id": 4,
+      "title": "OSNK Matematika 2024 — SMA",
+      "jenjang": "SMA",
+      "kategori": "Lokal",
+      "sumber": "OSNK Matematika",
+      "tahun": 2024,
+      "jumlah_soal": 25,
+      "ukuran": "1.5 MB",
+      "deskripsi": "Paket soal Olimpiade Sains Nasional Kabupaten (OSNK) bidang Matematika jenjang SMA tahun 2024.",
+      "file": "assets/pdf/OSNK-2024-MTK-SMA.pdf"
+    },
+    {
+      "id": 5,
+      "title": "OSNK Matematika 2024 — SMP",
+      "jenjang": "SMP",
+      "kategori": "Lokal",
+      "sumber": "OSNK Matematika",
+      "tahun": 2024,
+      "jumlah_soal": 25,
+      "ukuran": "1.3 MB",
+      "deskripsi": "Paket soal Olimpiade Sains Nasional Kabupaten (OSNK) bidang Matematika jenjang SMP tahun 2024.",
+      "file": "assets/pdf/OSNK-2024-MTK-SMP.pdf"
+    },
+    {
+      "id": 6,
+      "title": "OSN Matematika 2020 — SMA",
+      "jenjang": "SMA",
+      "kategori": "Lokal",
+      "sumber": "OSN Matematika",
+      "tahun": 2020,
+      "jumlah_soal": 20,
+      "ukuran": "0.9 MB",
+      "deskripsi": "Paket soal Olimpiade Sains Nasional (OSN) bidang Matematika jenjang SMA tahun 2020.",
+      "file": "assets/pdf/OSN-2020-MTK-SMA.pdf"
+    },
+    {
+      "id": 7,
+      "title": "SAT Math 2024 — Practice Test 1",
+      "jenjang": "SMA",
+      "kategori": "Internasional",
+      "sumber": "SAT",
+      "tahun": 2024,
+      "jumlah_soal": 44,
+      "ukuran": "3.2 MB",
+      "deskripsi": "SAT Math Practice Test 1 tahun 2024 dari College Board. Mencakup Heart of Algebra, Problem Solving, Data Analysis, dan Advanced Math.",
+      "file": "assets/pdf/SAT-2024-MATH-1.pdf"
+    },
+    {
+      "id": 8,
+      "title": "SAT Math 2024 — Practice Test 2",
+      "jenjang": "SMA",
+      "kategori": "Internasional",
+      "sumber": "SAT",
+      "tahun": 2024,
+      "jumlah_soal": 44,
+      "ukuran": "3.1 MB",
+      "deskripsi": "SAT Math Practice Test 2 tahun 2024 dari College Board. Format soal mengikuti SAT terbaru dengan soal pilihan ganda dan grid-in.",
+      "file": "assets/pdf/SAT-2024-MATH-2.pdf"
+    }
+  ]
+}
